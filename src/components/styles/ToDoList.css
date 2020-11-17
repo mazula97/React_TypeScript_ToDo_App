@@ -1,0 +1,75 @@
+@import url('http://fonts.googleapis.com/css?family=Nunito&subset=latin,latin-ext');
+
+.appPage {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 198, 210);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputText {
+    background-color: rgb(204, 154, 177);
+    color: rgb(71, 68, 70);
+    width: 100%;
+    padding-left: 10px;
+    border: 0;
+    -webkit-appearance: none;
+    font-size: 14px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.addButton {
+    background-color: rgb(204, 154, 177);
+    color: rgb(71, 68, 70);
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border: 0;
+    font-size: 24px;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+}
+
+.addButton:hover {
+    background-color: rgba(204, 154, 177, 0.700);
+}
+
+.buttonItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteButton {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    height: 35px;
+    width: 140px;
+    background-color: rgb(204, 154, 177);
+    color: rgb(71, 68, 70);
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.deleteButton:hover {
+    background-color: rgba(204, 154, 177, 0.700);
+}

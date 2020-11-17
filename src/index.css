@@ -1,0 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Nunito&subset=latin,latin-ext');
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(236, 233, 235);
+  color: rgb(71, 68, 70);
+  font-family: 'Nunito', sans-serif;
+  padding-top: 40px;
+}

@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(236, 233, 235);
+    border-radius: 10px;
+    height: 35px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.item:hover {
+    background-color: rgba(236, 233, 235, 0.674);
+}
+
+.color-text {
+    color: rgba(155, 44, 118, 0.700);
+    text-decoration: line-through;
+    background-color: rgba(236, 233, 235, 0.500);
+}
